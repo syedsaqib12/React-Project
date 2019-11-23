@@ -1,0 +1,178 @@
+
+* {
+    background-image: url("img/floral.png")
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+marquee {
+    width: 100%;
+    color: white;
+    background-color: #ed484c;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #4c4c4c ;
+    justify-content: right;
+}
+
+.flex-container>div {
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.logo {
+    margin-right: auto;
+}
+
+img {
+    height: 55px;
+    width: 95px;
+}
+
+#circle {
+    height: 400px;
+    width: 100%;
+    background-color: #f28d97;
+}
+
+#circle>div {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#circle button {
+    padding: 20px 70px;
+    background-color: white;
+    border: none;
+    color: balck;
+    font-size: 30px;
+}
+#circle button:hover {
+    color: rgb(231, 231, 111);
+    background-color: black;
+}
+p {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 30px;
+}
+
+#services {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    background-color: #efece7;
+    height: 400px;
+    width: 100%;
+}
+
+#services>div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#creation {
+    height: 400px;
+    width: 100%;
+    background-color: palevioletred;
+}
+
+#creation>div {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.para2 {
+    padding: 20px;
+    margin: 10px 70px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(68, 58, 58);
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.fig {
+    font-family:'Nunito', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+#creation figure img {
+    height: 200px;
+    width: 200px;
+}
+
+footer:hover .fa-heart {
+    color: rgb(189, 4, 4);
+}
+
+.images {
+    display: inline-block;
+}
+
+h4 {
+    margin: 0;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    padding: 4em 3.2em;
+    
+}
+
+.portfolio {
+    
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: #deceb4;
+}
+
+.icon {
+    height: 200px;
+    line-height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #a8bfbe;
+}
+
+.icon button {
+    border: 2px solid black;
+    font-size: 40px;
+    background-color: none;
+    border-radius: 90px 90px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.icon button:hover {
+    color: rgb(231, 231, 111);
+    background-color: black;
+}
+
